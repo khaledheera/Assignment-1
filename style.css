@@ -1,5 +1,10 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
 .banner {
-    
+
     width: 1600px;
     height: 809px;
     text-align: right;
@@ -38,6 +43,9 @@
     font-size: 20px;
 
 }
+.banner-button:hover{
+    background: #ebf303;
+    color: black;}
 
 section {
     display: flex;
@@ -53,6 +61,7 @@ section {
 
     margin-top: 200px;
     margin-left: 87px;
+    margin-bottom: 30px;
     font-family: 'Work Sans', sans-serif;
     font-size: 40px;
 }
@@ -66,7 +75,7 @@ section {
 .section-item {
     font-family: 'Work Sans', sans-serif;
     margin-top: 16px;
-    margin-left: 45px;
+    margin-left: 80px;
     font-size: 16px;
     margin-right: 390px;
 
@@ -79,6 +88,37 @@ ul {
 ul li:before {
     content: '✓';
     color: #16D887;
+}
+
+.article-container {
+    display: flex;
+}
+
+.article-header {
+    margin-top: 200px;
+    margin-left: 87px;
+    margin-right: 80px;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 40px;
+
+}
+
+.article-descrition {
+    margin-left: 87px;
+    margin-right: 80px;
+    margin-top: 50px;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 20px;
+}
+
+.article-img {
+    width: 600px;
+    height: 723px;
+    margin-right: 180px;
+    margin-top: 150px;
+
+
+
 }
 
 .plan {
@@ -144,6 +184,9 @@ ul li:before {
     margin-left: 100px;
 
 }
+.bnt-button:hover{
+    background: #f7ba04;
+    color: black;}
 
 footer {
     width: 1600px;
@@ -156,7 +199,7 @@ footer {
 
 .footer-container {
     display: flex;
-    
+
 
 }
 
@@ -172,7 +215,8 @@ footer {
 
 
 }
-.footer-header{
+
+.footer-header {
     margin-top: 130px;
 }
 
@@ -180,7 +224,7 @@ footer {
     margin-left: 230px;
     margin-top: 32px;
     width: 175px;
-height: 46px;
+    height: 46px;
 
 }
 
@@ -203,7 +247,7 @@ height: 46px;
     margin-top: 30px;
     border-radius: 5px;
     padding: 5px 15px;
-   background-color: black;
+    background-color: black;
 }
 
 .ftr-button {
@@ -216,5 +260,8 @@ height: 46px;
     color: #FFFFFF;
     font-weight: 600;
     font-size: 16px;
-
 }
+
+.ftr-button:hover{
+    background: #b7b4ab;
+    color: black;}

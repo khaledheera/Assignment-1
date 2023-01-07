@@ -1,6 +1,6 @@
 * {
     margin: 0;
-    padding: 0
+    padding: 0;
 }
 
 .banner {
@@ -168,6 +168,7 @@ ul li:before {
     width: 459px;
     height: 94px;
     margin-left: 100px;
+    margin-top: 50px;
 
 }
 
